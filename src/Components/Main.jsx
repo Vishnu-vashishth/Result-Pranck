@@ -828,11 +828,12 @@ const Main = (props) => {
     return (
         <>
             <div className='form1'>
-                <form
+                <form 
+                className='form5'
                     // method="post"
                     // action="/result"
                     id="form1"
-                    style={{ position: "relative", marginLeft: 300, marginRight: 210 }}
+                    // style={{ position: "relative", marginLeft: 300, marginRight: 210 }}
                 >
                     <div className="aspNetHidden">
                         <input
